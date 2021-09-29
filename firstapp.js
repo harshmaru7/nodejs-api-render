@@ -1,6 +1,8 @@
 // importing required modules
 document.getElementById('button1').addEventListener('click',loaddata);
 
+
+//using https which works in the console but has issues when used in browser (extra steps required)
 function loaddata(){
 var https = require('https');
 
